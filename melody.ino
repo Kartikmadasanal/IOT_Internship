@@ -1,3 +1,4 @@
+//test file
 #include "pitches.h"
 int coffindance[] = {
   NOTE_D5, NOTE_D5, NOTE_D5, NOTE_D5,
@@ -61,7 +62,6 @@ void setup() {
     noTone(6);
   }
 }
-
 void loop() {
   for (int thisNote = 0; thisNote <= 92; thisNote++) {
     int noteDuration = 1000 / noteDurations[thisNote];
